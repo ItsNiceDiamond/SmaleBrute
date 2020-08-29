@@ -2,6 +2,7 @@ import smtplib
 import colorama
 from colorama import init, Fore, Back
 from os import system
+clear
 print('   ======================  ')
 print('     Sm@le - email bute               ')
 print('   ======================  ')
