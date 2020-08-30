@@ -3,9 +3,16 @@ import colorama
 from colorama import init, Fore, Back
 from os import system
 
-print('   ======================  ')
-print('     Sm@le - email bute               ')
-print('   ======================  ')
+banner = """
+_____                   _
+      / ____|            ____ | |
+     | (___  _ __ ___   / __ \| | ___
+      \___ \| '_ ` _ \ / / _` | |/ _ \
+      ____) | | | | | | | (_| | |  __/
+     |_____/|_| |_| |_|\ \__,_|_|\___|
+                        \____/
+"""
+print(banner)
 init()
 print ('1. Start')
 print ('2. Exit')
