@@ -4,6 +4,8 @@ from colorama import init, Fore, Back
 from os import system
 def out_red(text):
     print("\033[31m {}" .format(text))
+def out_green(text):
+    print("\033[32m {}" .format(text))
 banner = """
        _____                   _
       / ____|            ____ | |
@@ -14,14 +16,13 @@ banner = """
      |_____/|_| |_| |_|\ \__,_|_|\___|
                         \____/
 """
-out_red(banner)
+out_green(banner)
 init()
 def out_green(text):
     print("\033[32m {}" .format(text))
-out_green ('1. Start')
+out_red ('1. Start')
 out_red ('2. Exit')
-def print(text):
-    print("\033[0m {}" .format(text))
+
 option = input('> ')
 if option == '1':
    passlist = input('Enter password_list: ')
