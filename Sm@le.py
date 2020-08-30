@@ -4,7 +4,7 @@ from colorama import init, Fore, Back
 from os import system
 
 banner = """
-                         
+       _____                   _
       / ____|            ____ | |
      | (___  _ __ ___   / __ \| | ___
       \___ \| '_ ` _ \ / / _` | |/ _ \
